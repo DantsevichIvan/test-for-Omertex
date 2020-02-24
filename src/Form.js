@@ -84,7 +84,7 @@ function Form() {
                 setErrorValues(isError);
                 setIpAddress({...ipAddress, errorText: 'Некоректные данные', isError: isError, errorValidation: true})
             } else {
-                setIpAddress({...ipAddress, errorValidation: false})
+                setIpAddress({...ipAddress, errorValidation: false,errorText:'Ваши данные'})
             }
         }
 
